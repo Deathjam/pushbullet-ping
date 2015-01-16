@@ -9,7 +9,7 @@ SERVER=www.example.com #SERVER or IP TO PING
 URL="https://api.pushbullet.com/v2/pushes" #PUSHBULLET API URL
 API="" #ACCOUNT API KEY
 
-NOTETITLE="$SERVER is down"
+NOTETITLE="$SERVER is down at $(date)"
 NOTEBODY="Everything is on fire and the world is ending, oh noes"
 SLEEP=120 #Sleep time in seconds
 
